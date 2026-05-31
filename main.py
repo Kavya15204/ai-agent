@@ -17,7 +17,9 @@ client = Groq(api_key=api_key)
 
 print("Reading README.md...")
 
-with open("README.md", "r", encoding="utf-8") as file:
+spec_file = input("Enter spec file path: ")
+
+with open(spec_file, "r", encoding="utf-8") as file:
     spec_text = file.read()
 
 print("Specification loaded")
