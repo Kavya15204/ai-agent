@@ -1,14 +1,18 @@
-# Food Delivery Application
+# AI Specification Analysis Agent
 
-Features:
-- User registration
-- User login
-- Browse restaurants
-- Place orders
-- Online payment
-- Order tracking
+This project uses Groq and Llama 3.3 to analyze software specifications and generate API documentation automatically.
 
-Requirements:
-- JWT authentication
-- REST APIs
-- PostgreSQL database
+## Features
+
+- Read software specifications
+- Extract requirements
+- Generate API tables
+- Generate assumptions
+- Generate HLD (coming soon)
+
+## Tech Stack
+
+- Python
+- Groq
+- Llama 3.3 70B
+- Git
